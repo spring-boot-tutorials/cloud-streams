@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    function:
+      definition: enrichLogMessage;processLogs
+    stream:
+      function.routing.enabled: true
+      bindings:
+        enrichLogMessage-in-0:
+          destination: my.input.queue.log.messages
+        enrichLogMessage-out-0:
+          destination: my.output.queue.log.messages
