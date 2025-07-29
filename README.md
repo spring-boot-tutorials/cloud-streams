@@ -1,1 +1,1 @@
-see: http://localhost:8000/spring-cloud/cloud-streams/spring-cloud-streams.html
+see: http://spring-guides.marcuschiu.com/spring-cloud/cloud-streams/spring-cloud-streams.html
